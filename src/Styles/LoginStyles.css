@@ -1,0 +1,53 @@
+.login_section{
+    background: #698ab3 ;
+    background: linear-gradient(to right, #698ab3, #6a7f94);
+    background: linear-gradient(to right, #555c62, #6b8485);
+
+    width: 100%;
+   min-height: 100vh;
+   padding-bottom: 70px;
+    
+}
+.login_container{
+   padding-top: 3% !important;
+}
+.login_section_header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1490196078);
+    position: relative;
+    background: #fff;
+}
+.login_container_col{
+    background: white;
+}
+.login_form button img{
+    max-width:27px;
+    
+}
+.login_form p{
+    font-size: 15px;
+}
+.line span{
+     border: 0.01px solid rgb(219, 219, 219);
+    width:50%;
+     height:0px !important;
+}
+.form-control:focus{
+    box-shadow: none!important;
+}
+.btn-primary {
+    --bs-btn-bg: #093330!important;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
